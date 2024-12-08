@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1533681475364-326b6803d677?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+#main{
+    color: antiquewhite;
+    text-shadow: 0 0 1px black;
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 300px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#increment-btn {
+    background: blue;
+}
+
+#save-btn {
+    background: green;
+}
+#reset-btn{
+    background-color: red;
+}
+
+#save-el{
+    background-color: darkblue;
+    width: 150px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+#clear-btn{
+    background-color: blueviolet;
+}
